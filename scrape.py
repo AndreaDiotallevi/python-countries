@@ -19,7 +19,7 @@ countries = [
   },
   {
     "Name": "American Samoa",
-    "Code": "AS"
+    "Code": "AS
   },
   {
     "Name": "Andorra",
@@ -1011,3 +1011,4 @@ for country in z:
 
 with open("movies4.json", "w") as outfile:
   json.dump(data, outfile, indent=2)
+  
